@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Anniversaire Elvira Gaëlle! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Confetti Animation -->
+    <div class="confetti-container" id="confetti-container"></div>
+    
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="lang-fr" class="lang-btn active">🇫🇷 FR</button>
+        <button id="lang-en" class="lang-btn">🇬🇧 EN</button>
+    </div>
+
+    <!-- Header Section -->
+    <header class="hero-section">
+        <div class="floating-balloons">
+            <div class="balloon balloon-1"></div>
+            <div class="balloon balloon-2"></div>
+            <div class="balloon balloon-3"></div>
+            <div class="balloon balloon-4"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="main-title" data-fr="Joyeux Anniversaire" data-en="Happy Birthday">Joyeux Anniversaire</h1>
+            <h2 class="name-title">Elvira Gaëlle</h2>
+            <div class="sparkle-effect">✨🎂✨</div>
+            <button class="celebration-btn" id="celebrate-btn" data-fr="Célébrer! 🎉" data-en="Celebrate! 🎉">Célébrer! 🎉</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Birthday Message Section -->
+        <section class="message-section">
+            <div class="container">
+                <div class="message-card">
+                    <img src="assets/cake1.jpg" alt="Birthday Cake" class="cake-image">
+                    <div class="message-text">
+                        <h3 data-fr="Un jour très spécial" data-en="A Very Special Day">Un jour très spécial</h3>
+                        <p data-fr="Que cette nouvelle année t'apporte joie, bonheur et réussite dans tous tes projets. Profite bien de ta journée spéciale et que tous tes rêves se réalisent!" 
+                           data-en="May this new year bring you joy, happiness and success in all your projects. Enjoy your special day and may all your dreams come true!">
+                           Que cette nouvelle année t'apporte joie, bonheur et réussite dans tous tes projets. Profite bien de ta journée spéciale et que tous tes rêves se réalisent!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wishes Section -->
+        <section class="wishes-section">
+            <div class="container">
+                <h3 class="section-title" data-fr="Nos meilleurs vœux" data-en="Our Best Wishes">Nos meilleurs vœux</h3>
+                <div class="wishes-grid">
+                    <div class="wish-card">
+                        <div class="wish-icon">🎈</div>
+                        <h4 data-fr="Bonheur" data-en="Happiness">Bonheur</h4>
+                        <p data-fr="Que chaque jour soit rempli de sourires et de moments précieux" 
+                           data-en="May every day be filled with smiles and precious moments">
+                           Que chaque jour soit rempli de sourires et de moments précieux
+                        </p>
+                    </div>
+                    <div class="wish-card">
+                        <div class="wish-icon">⭐</div>
+                        <h4 data-fr="Réussite" data-en="Success">Réussite</h4>
+                        <p data-fr="Que tous tes projets se concrétisent et que tes ambitions se réalisent" 
+                           data-en="May all your projects come to fruition and your ambitions be realized">
+                           Que tous tes projets se concrétisent et que tes ambitions se réalisent
+                        </p>
+                    </div>
+                    <div class="wish-card">
+                        <div class="wish-icon">💖</div>
+                        <h4 data-fr="Amour" data-en="Love">Amour</h4>
+                        <p data-fr="Que tu sois entourée de l'affection de ceux qui t'aiment" 
+                           data-en="May you be surrounded by the affection of those who love you">
+                           Que tu sois entourée de l'affection de ceux qui t'aiment
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="container">
+                <h3 class="section-title" data-fr="Galerie de fête" data-en="Party Gallery">Galerie de fête</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/balloons1.jpg" alt="Birthday Balloons" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span data-fr="Ballons festifs" data-en="Festive Balloons">Ballons festifs</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/cake2.jpg" alt="Birthday Cake" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span data-fr="Gâteau délicieux" data-en="Delicious Cake">Gâteau délicieux</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/balloons2.jpg" alt="Party Balloons" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span data-fr="Décorations colorées" data-en="Colorful Decorations">Décorations colorées</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/decoration2.jpg" alt="Party Decorations" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <span data-fr="Ambiance dorée" data-en="Golden Atmosphere">Ambiance dorée</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-fr="Avec tout notre amour pour ton anniversaire! 💕" 
+               data-en="With all our love for your birthday! 💕">
+               Avec tout notre amour pour ton anniversaire! 💕
+            </p>
+            <div class="footer-decoration">🎂🎈🎉🎁🎊</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
