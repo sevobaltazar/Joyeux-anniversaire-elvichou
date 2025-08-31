@@ -5,7 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joyeux Anniversaire Elvira Gaëlle! 🎉</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="0.png" rel="stylesheet">
+    <style>
+        /* Style du header avec image de fond */
+        .hero-section {
+            position: relative;
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            background-image: url('0.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3); /* overlay pour lisibilité du texte */
+            border-radius: 15px;
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2; /* texte au-dessus du fond */
+        }
+    </style>
 </head>
 <body>
     <!-- Confetti Animation -->
@@ -27,10 +59,6 @@
         </div>
         
         <div class="hero-content">
-            <!-- Image ajoutée au-dessus du texte -->
-            <img src="0.png" 
-                 alt="Birthday Banner" class="header-image" style="width:150px; height:auto; display:block; margin:0 auto 10px;">
-            
             <h1 class="main-title" data-fr="Joyeux Anniversaire" data-en="Happy Birthday">Joyeux Anniversaire</h1>
             <h2 class="name-title">Elvira Gaëlle</h2>
             <div class="sparkle-effect">✨🎂✨</div>
